@@ -6,11 +6,11 @@ export const meta: V2_MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
+    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }} className="m-10">
       <h1 className="text-3xl font-bold">Welcome to Remix and Tailwind Boilerplate</h1>
       <ul>
         <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
+          <a target="_blank" href="https://remix.run/docs" rel="noreferrer" className="text-indigo-500">
             Remix Docs
           </a>
         </li>

@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: 'Roboto, Arial, sans-serif',
+html {
+    font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
     color: #666;
     background-color: #c0c7ff;
-}
+  }
+
+  body {
+    margin: 0;
+  }
